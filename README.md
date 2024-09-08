@@ -1,6 +1,8 @@
 ```markdown
 ## README: Seu Buscador de Músicas Personalizado - Imersão Dev Alura com Google Gemini
 
+                                         https://loucos-por-musica.vercel.app/
+
 **O que faz essa aplicação?**
 
 Imagine um mundo onde você pode encontrar suas músicas favoritas com apenas alguns cliques! Essa é a proposta desse buscador musical. Com ele, você pode:
@@ -37,5 +39,5 @@ Imagine um mundo onde você pode encontrar suas músicas favoritas com apenas al
 
 Se você é um desenvolvedor e gostaria de contribuir para este projeto, fique à vontade para fazer um fork e enviar suas sugestões e melhorias.
 
-**Divirta-se explorando a sua coleção de músicas!**
+**Divirta-se explorando a sua coleção de músicas!**       https://loucos-por-musica.vercel.app/
 ```
