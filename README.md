@@ -1,5 +1,5 @@
 ```markdown
-## README: Seu Buscador de Músicas Personalizado
+## README: Seu Buscador de Músicas Personalizado - Imersão Dev Alura com Google Gemini
 
 **O que faz essa aplicação?**
 
