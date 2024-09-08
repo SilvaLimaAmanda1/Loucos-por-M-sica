@@ -1,0 +1,177 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Russo One", sans-serif; /* Define a fonte padrão */
+    background: linear-gradient(to right, #f00, #f2c 170%); /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    overflow-x: hidden; /* Evita scroll horizontal */
+    min-height: 100vh; /* Garante que o corpo ocupe a altura total da tela */
+    margin: 0;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 20px 0;  
+    box-sizing: border-box;   
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    transform: rotate(3deg);
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav li{
+    letter-spacing: 3px;
+    margin: 0 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover {
+    opacity: 0.7;
+    color: #ff0;
+}
+/* Estiliza os títulos h1 */
+.heade-text h1 {
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474B; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    filter: drop-shadow(3px 3px #ff0); 
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #F2D302; /* Cor de fundo do botão */
+    color: #FFF; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+section button:hover{
+    background: linear-gradient(135deg, #ff0 30%, #f2c 80%);
+}
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+	width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+    box-sizing: border-box; /* Garante que padding seja incluído na largura */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+	text-align: center; /* Centraliza o texto */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+/* Estiliza a foto do album */
+.album {
+    display: flex;
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: 200px; /* Ajuste o tamanho conforme necessário */
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden; /* Para esconder o excesso da imagem */
+}
+
+.album img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h3{
+	font-size: 1rem;
+	color: #000;
+}
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+/* Estiliza o rodapé da página */
+footer {
+    box-shadow: 0 0 20px #ff0;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+}
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+	background-color: white;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #f2c;
+}
+::-webkit-scrollbar-thumb:hover{
+	background-color: #f00;
+}
